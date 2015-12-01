@@ -1,0 +1,110 @@
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, samp, strike, strong, tt, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;	padding: 0;	border: 0; outline: 0; font-size: 100%;	vertical-align: baseline; background: transparent;}
+button, input, textarea{margin: 0; padding: 0;} 
+body,button,input,select,textarea{ font: 400 14px/1.5 "HelveticaLight", "Helvetica Neue", "Heiti SC", "Microsoft Yahei", tahoma,arial,sans-serif;}
+h1,h2,h3,h4,h5,h6,th{font-size:100%;font-weight:normal;}
+address,cite,dfn,em,var{font-style:normal;}
+code, kbd, samp { font-family: 'courier new', courier, monospace; }
+pre { white-space: pre-wrap; word-break:break-all; word-wrap: break-word; font-family: "HelveticaLight", "Helvetica Neue", "Heiti SC", "Microsoft Yahei", tahoma,arial,sans-serif; }
+ul,ol{list-style:none;}
+button,input[type="submit"],input[type="button"]{-webkit-appearance: none;}
+input[type="radio"],input[type="checkbox"],input[type="submit"],input[type="reset"] { vertical-align: middle; cursor: pointer; }
+a{text-decoration:none;}
+a:hover,a:active{text-decoration:none;}
+:focus {outline: 0;}
+fieldset, img { border: 0; } 
+button, input, select, textarea {background:transparent; font-size: 100%; outline: 0;}
+table{border-collapse:collapse;border-spacing:0;}
+td,th{vertical-align:middle;}
+article, aside, details, figcaption, figure, footer,header, hgroup, menu, nav, section,summary, time, mark, audio, video {display: block; margin: 0; padding: 0;}
+img{ max-width: 100%; display: inline; vertical-align: middle;}
+@media screen and (min-width:480px) {
+ 	body{ width: 480px; margin: 0 auto;} 
+}
+
+body { background-color: #f1f1f1; }
+
+.space_15 { height: 15px; }
+
+.clearfix {*zoom: 1;}
+.clearfix:before,.clearfix:after {display: table; content: ""; height:0; clear:both; visibility: hidden;}
+
+.stock_audio_list_container {}
+.stock_audio_list_container img{ display: block;}
+.stock_audio_list_hd {}
+/*头部*/
+.stock_audio_speaker_wrap { position: relative; min-height: 149px; }
+.stock_audio_speaker_wrap .speaker_bg {}
+.stock_audio_speaker_wrap .speaker_info { position: absolute; width: 100%; text-align: center; top: 50%; margin-top: -59px; }
+.stock_audio_speaker_wrap .speaker_photo{ width: 83px; height: 83px; padding: 4px; margin: 0 auto; background-color: rgba(255,255,255,0.4); border-radius: 50%; -webkit-background-clip: padding-box;
+          background-clip: padding-box;}
+.stock_audio_speaker_wrap .speaker_photo .photo{ border-radius: 50%;}
+.stock_audio_speaker_wrap .speaker_photo .photo img{ width: 83px; border-radius: 50%;}
+.stock_audio_speaker_wrap .speaker_p{ margin-top: 8px; padding: 0 14px; font-size: 12px; color: #fff; line-height: 18px; }
+
+.stock_audio_wrap { background-color: #fff; border-top: 1px solid #f7f6f6; }
+/*audio list*/
+.stock_audio_list_wrap { background-color: #fff; }
+.stock_audio_list_item {  position: relative; padding: 10px 5px 10px 10px; border-bottom: 1px solid #f7f6f6; background-color: #fff; }
+.stock_audio_list_item a{ display: block; }
+.stock_audio_list_item .audio_icon{ position: absolute; z-index: 100; top: 14px; left: 10px; width: 50px; height: 50px; background: url(../images/stop.png); background-size: 50px 50px; }
+.stock_audio_list_item .audio_icon_play{ background: url(../images/play.png); background-size: 50px 50px;}
+.stock_audio_list_item .audio_icon_pause { background: url(../images/pause.png); background-size: 50px 50px;}
+.stock_audio_list_item .audio_icon_stop .circle_wrap{ display: block;}
+	
+.stock_audio_list_item .circle_wrap{ position: absolute; z-index: 200; top: 0; width: 25px; height: 50px; overflow: hidden;}
+.stock_audio_list_item .audio_right_icon {right: 0;}
+.stock_audio_list_item .circle_wrap .circle{ position: absolute; z-index: 300; width: 25px; height: 50px; top: 0;  }
+.stock_audio_list_item .audio_left_icon .circle{ left: 0; background: url(../images/left_circle.png); background-size: 25px 50px; -webkit-transform: rotate(180deg); -webkit-transform-origin: right center;}
+.stock_audio_list_item .audio_right_icon .circle{ right: 0; background: url(../images/right_circle.png); background-size: 25px 50px; -webkit-transform: rotate(180deg); -webkit-transform-origin: left center;}
+
+.stock_audio_list_item .audio_description{ padding-left: 58px;}
+.stock_audio_list_item .audio_tit{ font-size: 14px; line-height: 1.5; color: #4f4f4f; }
+.stock_audio_list_item .audio_tit .tit{ float: left; width: 76%; margin-left: 5px;}
+.stock_audio_list_item .audio_tit .time{ float: right; font-size: 12px; color: #969696;}
+.stock_audio_list_item .audio_con{ position: relative; font-size: 12px; color: #969696;}
+.stock_audio_list_item .audio_detail{ padding-right: 20px;}
+.stock_audio_list_item .audio_arrow{ position: absolute; right: 0; top: 6px; width: 20px; height: 20px; background: url(../images/audio_arrow.png); background-size: 20px 20px;}
+.stock_audio_list_item .audio_speaker{ margin-left: 5px;}
+.stock_audio_list_item .audio_btn_wrap{ }
+.stock_audio_list_item .audio_btn{ float: left; margin-left: 15px; height: 20px;}
+.stock_audio_list_item .audio_btn:nth-child(1){ margin-left: 0;}
+.stock_audio_list_item .audio_btn_ico{ float: left; width: 15px; height: 15px; margin-top: 3px; background: url(../images/audio_btn_ico.png); background-size: 47px 15px;}
+.stock_audio_list_item .audio_btn:nth-child(1) .audio_btn_ico{ background-position: 0 0; }
+.stock_audio_list_item .audio_btn:nth-child(2) .audio_btn_ico{ background-position: -16px 0; }
+.stock_audio_list_item .audio_btn:nth-child(3) .audio_btn_ico{ background-position: -32px 0; }
+.stock_audio_list_item .audio_btn_txt{ float: left; margin-left: 3px; margin-top: 1px;}
+
+.stock_audio_detail_container{}
+.stock_audio_detail_wrap{ position: relative; min-height: 242px;}
+.stock_audio_detail_container img{ display: block;}
+.stock_audio_detail_bg{}
+.stock_audio_control_wrap{ position: absolute; width: 100%; min-height: 160px; bottom: 0; left: 0; right: 0; background-color: rgba(255,255,255,0.4); }
+.stock_audio_control_wrap .speaker_info{ position: relative; padding:  0 15px; }
+.stock_audio_control_wrap .speaker_photo{ position: absolute; left: 15px; top: -43px; width: 83px; height: 83px; padding: 4px; border-radius: 50%; background-color: #fff; -webkit-background-clip: padding-box;
+          background-clip: padding-box;}
+.stock_audio_control_wrap .speaker_photo .photo img{ width: 83px; border-radius: 50%;}
+.stock_audio_control_wrap .speaker_p{ padding: 7px 0 0 95px; min-height: 39px; overflow: hidden; font-size: 12px; color: #fff;}
+
+.stock_audio_control_wrap .audio_controller{ padding: 0 15px 14px; margin-top: 16px; font-size: 12px; line-height: 18px; color: #fff;}
+.stock_audio_control_wrap .audio_controller .progress_wrap{ width: 100%; min-height: 30px;}
+.stock_audio_control_wrap .audio_controller .has_played{ float: left; color: #ffe400;}
+.stock_audio_control_wrap .audio_controller .left{ float: right; }
+.stock_audio_control_wrap .audio_controller .progress_bar{ position: relative; width: 100%;  height: 9px; margin-top: 2px; background-color: #fff; border-radius: 5px;}
+.stock_audio_control_wrap .audio_controller .bar{ position: absolute; z-index: 100; left: 0; top: 0; background-color: #ffc900; width: 0%;  height: 9px; border-radius: 5px;}
+.stock_audio_control_wrap .audio_controller .bar_point{ position: absolute; right: -7px; top: -3px; width: 15px; height: 15px; background-color: #fff; border-radius: 50%; }
+.stock_audio_control_wrap .audio_controller .load_percent { position: absolute; z-index: 50; left: 0; top: 0; background-color: #e6e6e6; width: 0%;  height: 9px; border-radius: 5px; }
+.stock_audio_control_wrap .audio_controller .control_btn_wrap{ margin-top: 20px; text-align: center;}
+.stock_audio_control_wrap .audio_controller .btn_wrap{ display: inline-block;}
+.stock_audio_control_wrap .control_btn{ float: left; width: 27px; height: 27px; margin-top: 4px; background: url(../images/prev.png); background-size: 27px 27px;}
+.stock_audio_control_wrap .pre_btn{ }
+.stock_audio_control_wrap .next_btn{  margin-left: 50px; background: url(../images/next.png); background-size: 27px 27px;}
+.stock_audio_control_wrap .play_stop_btn{ float: left; width: 35px; height: 35px; margin-left: 50px; background: url(../images/stop_icon.png); background-size: 35px 35px;}
+.stock_audio_control_wrap .play_stop_btn.stop{  background: url(../images/play_icon.png); background-size: 35px 35px;}
+

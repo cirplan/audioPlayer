@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="user-scalable=no,width=device-width" />
+	<meta name="format-detection" content="telephone=no">
+	<title>多音频切换播放</title>
+	<link rel="stylesheet" href="../css/common.css" />
+</head>
+<body>
+	<div class="stock_audio_list_container" ng-controller="stockCommentCtrl">
+		<div class="stock_audio_list_hd">
+			<div class="stock_audio_speaker_wrap">
+				<div class="speaker_bg">
+					<img src="../images/bg.jpg">
+				</div>
+				<div class="speaker_info">
+					<div class="speaker_photo">
+						<div class="photo"><img src="../images/speaker_photo.jpg"></div>
+					</div>
+					<div class="speaker_p">多音频切换播放例子</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="space_15"></div>
+
+		<div class="stock_audio_wrap">
+			<div class="stock_audio_list_bd">
+				<ul class="stock_audio_list_wrap">
+					<li class="stock_audio_list_item" >
+					<div class="audio_icon audio_icon_play" data-index="0">
+						<span class="circle_wrap audio_left_icon">
+							<span class="circle left_circle"></span>
+						</span>
+						<span class="circle_wrap audio_right_icon">
+							<span class="circle right_circle"></span>
+						</span>
+					</div>
+
+					<div class="audio_description">
+						<a href="#">
+							<div class="audio_tit clearfix">
+								<div class="tit">Tobu,Itro - Sunburst</div>
+								<div class="time">刚刚</div>
+							</div>
+							<div class="audio_con">
+								<span class="audio_arrow"></span>
+								<div class="audio_detail">
+									<div class="audio_speaker">例子</div>
+									<div class="audio_btn_wrap clearfix">
+										<span class="audio_btn audio_play">
+											<span class="audio_btn_ico"></span>
+											<span class="audio_btn_txt play_num">0</span>
+										</span>
+										<span class="audio_btn audio_remark">
+											<span class="audio_btn_ico"></span>
+											<span class="audio_btn_txt remark_num">0</span>
+										</span>
+										<span  class="audio_btn audio_duration">
+											<span class="audio_btn_ico"></span>
+											<span class="audio_btn_txt duration_num">03:08</span>
+										</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</li>
+				<li class="stock_audio_list_item">
+					<div class="audio_icon audio_icon_play" data-index="1">
+						<span class="circle_wrap audio_left_icon">
+							<span class="circle left_circle"></span>
+						</span>
+						<span class="circle_wrap audio_right_icon">
+							<span class="circle right_circle"></span>
+						</span>
+					</div>
+
+					<div class="audio_description">
+						<a href="#">
+							<div class="audio_tit clearfix">
+								<div class="tit">Heroes</div>
+								<div class="time">刚刚</div>
+							</div>
+							<div class="audio_con">
+								<span class="audio_arrow"></span>
+								<div class="audio_detail">
+									<div class="audio_speaker">例子</div>
+									<div class="audio_btn_wrap clearfix">
+										<span class="audio_btn audio_play">
+											<span class="audio_btn_ico"></span>
+											<span class="audio_btn_txt play_num">0</span>
+										</span>
+										<span class="audio_btn audio_remark">
+											<span class="audio_btn_ico"></span>
+											<span class="audio_btn_txt remark_num">0</span>
+										</span>
+										<span  class="audio_btn audio_duration">
+											<span class="audio_btn_ico"></span>
+											<span class="audio_btn_txt duration_num">03:29</span>
+										</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</li>
+				<li class="stock_audio_list_item">
+					<div class="audio_icon audio_icon_play" data-index="2">
+						<span class="circle_wrap audio_left_icon">
+							<span class="circle left_circle"></span>
+						</span>
+						<span class="circle_wrap audio_right_icon">
+							<span class="circle right_circle"></span>
+						</span>
+					</div>
+
+					<div class="audio_description">
+						<a href="#">
+							<div class="audio_tit clearfix">
+								<div class="tit">Macy Gray - Let You Win</div>
+								<div class="time">刚刚</div>
+							</div>
+							<div class="audio_con">
+								<span class="audio_arrow"></span>
+								<div class="audio_detail">
+									<div class="audio_speaker">例子</div>
+									<div class="audio_btn_wrap clearfix">
+										<span class="audio_btn audio_play">
+											<span class="audio_btn_ico"></span>
+											<span class="audio_btn_txt play_num">0</span>
+										</span>
+										<span class="audio_btn audio_remark">
+											<span class="audio_btn_ico"></span>
+											<span class="audio_btn_txt remark_num">0</span>
+										</span>
+										<span  class="audio_btn audio_duration">
+											<span class="audio_btn_ico"></span>
+											<span class="audio_btn_txt duration_num">03:57</span>
+										</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</li>
+				</ul>
+			</div>
+			
+		</div>
+
+		<div class="audio_wrap">
+			<audio src="" id="music_player"></audio>
+		</div>
+
+	</div>
+	<script src="../js/zepto.min.js"></script>
+	<script src="../../src/AudioPlayer.js"></script>
+	<script src="../js/index2.js"></script>
+</body>
+</html>
