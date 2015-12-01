@@ -23,7 +23,7 @@ $(function () {
     // time 总时间 必须
     var list = [{
 		name: 'Tobu,Itro - Sunburst',
-		url: '../music/Tobu,Itro - Sunburst.mp3',
+		url: './music/Tobu,Itro - Sunburst.mp3',
 		time: '03:08'
 	}];
 
@@ -105,7 +105,7 @@ $(function () {
     function bindEvent () {
 
     	// 播放按钮
-        $playBtn.on('touchend', function (e) {
+        $playBtn.on('touchend click', function (e) {
             e.preventDefault();
 
             // canMove为false表示还没触发 canplay 事件

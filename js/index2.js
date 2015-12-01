@@ -2,15 +2,15 @@ $(function () {
 
 	var list = [{
 		name: 'Tobu,Itro - Sunburst',
-		url: '../music/Tobu,Itro - Sunburst.mp3',
+		url: './music/Tobu,Itro - Sunburst.mp3',
 		time: '03:08'
 	}, {
 		name: 'Heroes',
-		url: '../music/Heroes.mp3',
+		url: './music/Heroes.mp3',
 		time: '03:29'
 	}, {
 		name: 'Macy Gray - Let You Win',
-		url: '../music/Macy Gray - Let You Win.mp3',
+		url: './music/Macy Gray - Let You Win.mp3',
 		time: '03:57'
 	}];
 
