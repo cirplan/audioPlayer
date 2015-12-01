@@ -1,5 +1,5 @@
 # audioPlayer
-针对移动端Html5 audio的播放组件，主要参考了Audio5js: https://github.com/zohararad/audio5js，但没有flash。
+针对移动端Html5 audio的播放组件，主要参考了Audio5js: https://github.com/zohararad/audio5js。
 
 # 开始
 
@@ -97,9 +97,11 @@ audioPlayer 主要有下面的API:
 
 </script>
 ```
-### 例子
+### 具体例子
 
 ![](/images/audio1.gif)
+
+具体的在example文件夹里面。
 
 ===============
 
