@@ -1,3 +1,5 @@
+![](https://travis-ci.org/cirplan/audioPlayer.svg?branch=master)
+
 # audioPlayer
 针对移动端Html5 audio的播放组件，主要参考了Audio5js: https://github.com/zohararad/audio5js。
 
