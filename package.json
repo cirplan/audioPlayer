@@ -1,17 +1,23 @@
 {
-    "name": "audioPlayer",
-    "description": "HTML5 Audio for mobile",
-    "version": "0.1.0",
-    "homepage": "http://zohararad.github.com/audio5js/",
-    "keywords": [
-        "audio",
-        "HTML5"
-    ],
-    "author": "dcirplan (dcirplan@163.com)",
-    "contributors": [],
-    "main": "./src/audioPlayer.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/cirplan/audioPlayer.git"
-    }
+  "name": "audioPlayer",
+  "description": "HTML5 Audio for mobile",
+  "version": "0.1.0",
+  "homepage": "https://github.com/cirplan/audioPlayer",
+  "keywords": [
+    "audio",
+    "HTML5"
+  ],
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "dcirplan (dcirplan@163.com)",
+  "contributors": [],
+  "main": "./src/audioPlayer.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cirplan/audioPlayer.git"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  }
 }
