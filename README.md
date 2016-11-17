@@ -7,6 +7,8 @@
 
 [多音频例子](http://jeffdeng.me/audioPlayer/index2.html)
 
+[博文记录](http://jeffdeng.me/web/2015/11/30/html5-audio.html)
+
 # 开始
 
 ```html
