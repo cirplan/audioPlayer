@@ -3,10 +3,6 @@
 # audioPlayer
 针对移动端Html5 audio的播放组件，主要参考了Audio5js: https://github.com/zohararad/audio5js
 
-[单音频例子](http://jeffdeng.me/audioPlayer/)(要切换到手机模式)
-
-[多音频例子](http://jeffdeng.me/audioPlayer/index2.html)(要切换到手机模式)
-
 [博文记录](http://jeffdeng.me/web/2015/11/30/html5-audio.html)
 
 # 开始
