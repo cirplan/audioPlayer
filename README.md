@@ -10,16 +10,16 @@
 ```html
 <script src="/js/audioPlayer.js"></script>
 <script>
-	var audioHandler = new AudioPlayer({
-        id: 'music_player',
-        list: [{
-			name: 'Tobu,Itro - Sunburst',
-			url: '/music/Tobu,Itro - Sunburst.mp3',
-			time: '03:08'
-		}]
-    });
+  var audioHandler = new AudioPlayer({
+    id: 'music_player',
+    list: [{
+        name: 'Tobu,Itro - Sunburst',
+        url: '/music/Tobu,Itro - Sunburst.mp3',
+        time: '03:08'
+    }]
+});
 
-    audioHandler.loadIndex(0);
+audioHandler.loadIndex(0);
 
 </script>
 ```
@@ -75,12 +75,12 @@ audioPlayer 主要有下面的API:
 <script src="/js/audioPlayer.js"></script>
 <script>
     var list = [{
-		name: 'Tobu,Itro - Sunburst',
-		url: '/music/Tobu,Itro - Sunburst.mp3',
-		time: '03:08'
-	}];
+        name: 'Tobu,Itro - Sunburst',
+        url: '/music/Tobu,Itro - Sunburst.mp3',
+        time: '03:08'
+    }];
 
-	var audioHandler = new AudioPlayer({
+    var audioHandler = new AudioPlayer({
         id: 'music_player'
     });
 
@@ -182,13 +182,13 @@ use `on` to bind the event, use `off` to unbind the event. ex:
 <script src="/js/audioPlayer.js"></script>
 <script>
     var list = [{
-		name: 'Tobu,Itro - Sunburst',
-		url: '/music/Tobu,Itro - Sunburst.mp3',
-		time: '03:08'
-	}];
+        name: 'Tobu,Itro - Sunburst',
+        url: '/music/Tobu,Itro - Sunburst.mp3',
+        time: '03:08'
+    }];
 
-	var audioHandler = new AudioPlayer({
-        id: 'music_player'
+    var audioHandler = new AudioPlayer({
+       id: 'music_player'
     });
 
     audioHandler.add(list);
