@@ -1,3 +1,5 @@
+
+
 [![Build Status](https://travis-ci.org/cirplan/audioPlayer.svg?branch=master)](https://travis-ci.org/cirplan/audioPlayer)
 
 # audioPlayer
@@ -152,7 +154,7 @@ audioPlayer exposes the following API:
 ### Attributes
 
 * **audio** - the element of audio
-* **timeFormat** - returns playing time ascending or descending，0 ascending/ 1 descending，0
+* **timeFormat** - returns playing time ascending or descending，0 ascending/ 1 descending
 * **list** - music play list
 * **index** - now playing music index 
 * **playing** - the audio is playing 
@@ -208,7 +210,3 @@ use `on` to bind the event, use `off` to unbind the event. ex:
 
 </script>
 ```
-
-
-
-
